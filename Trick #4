@@ -1,0 +1,6 @@
+/*press Windows key+R and type shell:startup and paste the above code replacing mohit with your name */
+
+Dim speaks, speech
+speaks="Welcome to your PC, Mohit"
+Set speech=CreateObject("sapi.spvoice")
+speech.Speak speaks
